@@ -1,0 +1,112 @@
+.mainimage{
+  background-color:#f0f0f0;
+  display:flex;
+  padding:20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+}
+
+.top-1 {
+  display: flex;
+}
+
+.top img {
+  width: 200px
+}
+
+.top p{
+
+}
+
+.btn {
+ color:white;
+ background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+ border-radius: 100px;
+ text-decoration: none;
+ border: none;
+ width: 180px;
+ height:45px;
+}
+
+.smallbox {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.smallbox-item {
+  padding: 20px;
+  margin: 10px;
+  width: 140px;
+  border-radius:  5px;
+  background-color: white;
+  text-align:center;
+  line-height:5px; 
+}
+
+.one {
+  color:blue
+}
+
+.three {
+ color:darkcyan
+}
+
+.graph1 {
+  background-color: white;
+  height:60%;
+  margin:20px;
+  padding:20px;
+  border-radius: 5px;
+}
+
+.graph2 {
+  background-color: white;
+  margin:10px;
+  height:250px;
+}
+
+.rightside {
+  display: flex;
+  padding: 10px;
+  width:50%;
+}
+
+.leftside {
+  width:50%; 
+  margin:20px;
+}
+
+.learnbox {
+  background-color: white; 
+  margin: 10px;
+  width:300px;
+  border-radius: 5px;
+}
+
+.item-list {
+  color:aqua;
+} 
+
+.item-list span {
+ color:black;
+}
+
+.fotter {
+  background-color:#f0f0f0;
+  margin: 0px;
+  text-align: center; 
+  height: 50px;
+}
+
+.title {
+  margin-left:15px;
+}
+
