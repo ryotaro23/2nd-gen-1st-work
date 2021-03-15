@@ -18,21 +18,20 @@
     
         </div>
         
-
-      <!-- 記録完了モーダル -->
      <a href="#modal-00" class="header-button">記録・設定</a>
 
     </header>
-
+  <!--------------------------------------------------------- 記録完了モーダル0 --------------------------------------------------------------------------------------------------------------->
     <div class="modal-wrapper0" id="modal-00">
         <a href="#!" class="modal-overlay0"></a>
         <div class="modal-window0">
-          <div class="modal-content0">
+          <div class="modal-left-content0">
             <tr>
                 <td align="right"><b> 学習日</b></td>
                 <td><input type="text" name="name" size="30" maxlength="20"></td>
             </tr>
-              <tr>
+            <div class="mycheckbox1">
+              <!-- <tr> -->
                 <td align="right"><b>学習コンテンツ（複数選択可）</b></td>
                 <td>
                   <input type="checkbox"  value="N予備校">N予備校
@@ -40,7 +39,8 @@
                   <input type="checkbox" value="POSSE課題">POSSE課題
 
                 </td>
-              </tr>
+              <!-- </tr> -->
+            </div>
               <tr>
                 <td align="right"><b>学習言語（複数選択可能）</b></td>
                 <td>
@@ -53,6 +53,8 @@
                   <input type="checkbox" name="language" value="SHELL">SHELL
                   <input type="checkbox" name="language" value="情報システム基礎知識（その他）">情報システム基礎知識
                 </td>
+          </div>
+          <div class="modal-right-content0">
                 <td align="right"><b> 学習時間</b></td>
                 <td><input type="text" name="name" size="30" maxlength="20"></td>
               </tr>
@@ -60,7 +62,11 @@
                 <td align="right"><b> Twitter用コメント</b></td>
                 <td><input type="text" name="name" size="30" maxlength="50"></td>
               </tr>
-            
+              <tr>
+                <td>
+                  <input type="checkbox" name="SNS" value="Twitter">Twitterにシェア
+              </tr>
+          </div>
 
          
          <a href="#modal-01" class="header-button">記録・設定</a>
