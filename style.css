@@ -1,0 +1,68 @@
+body{
+  background-color: #f5f5f8;
+  margin: 0;
+}
+
+header{
+  justify-content: space-between;
+  background-color: #ffff;
+}
+
+h1{
+  margin: 0;
+  height: 64px;
+}
+
+.posselogo{
+  width: 150px;
+  height: 30px;
+  margin: 17px 30px;
+}
+
+.button{
+  float: right;
+  width: 150px;
+  height: 30px;
+  margin: 18px 30px;
+  background: linear-gradient(to right, #2272bc 0%, #54cef9 100%);
+  border-radius: 100vh;
+  box-shadow: 10px 10px;
+  border: 10px;
+  color: #ffff;
+}
+
+/* 左右二分割 */
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* 勉強時間入力場所三分割 */
+.items{
+  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+  padding: 0.5em 1em;
+  margin: 20px 10px;
+  font-weight: bold;
+  background: #FFF;
+  border: solid 3px #ffff; /*線*/
+  border-radius: 10px; /*角の丸み*/
+  text-align: center;
+}
+
+.graphofstudytime{
+  margin: 0 10px;
+}
+
+.right{
+  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+}
