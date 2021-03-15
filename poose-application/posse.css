@@ -1,0 +1,263 @@
+body{
+        background-color:#F5F5F8;
+}
+
+/* ヘッダー */
+.header{
+    display:flex;
+    justify-content:space-between;
+    height:64px;
+    /* position:absolute;
+    top:0;
+    left:0; */
+    width:100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:#fff;
+}
+
+.posse_title{
+    display:flex;
+    align-items:center;
+}
+
+.posse_week{
+    margin-left:20px;
+}
+ .btn_submit{
+    border-radius: 50px;
+    display:flex;
+    align-items:center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    width:200px;
+    justify-content:center;
+    background:linear-gradient(90deg,#1B72BD,#3ACBFC);
+    color: #fff;
+ }
+
+/* メイン */
+
+.main{
+    display:flex;
+    padding-top:20px;
+    margin-right:8%;
+    margin-left:8%;
+    
+}
+
+/* 右側 */
+.studying_hour{
+    display:block;
+}
+
+.studying_letter{
+    display:flex;
+}
+
+.studying_card{
+    display:block;
+    text-align:center;
+    margin-right: 20px;
+    padding-right:3em;
+    padding-left:3em;
+    padding-top:2em;
+    width:185px;
+}
+
+.period{
+    color:#3A83C4;
+    font-size:1.5em;
+}
+
+.time{
+    font-size:3em;
+}
+
+.hour{
+    font-size:1.5em;
+    color:#9BBBD4;
+}
+.studying_card_month{
+
+}
+
+.studying_card_total{
+
+}
+
+.bar_graf_wrapper{
+    margin-top:20px;
+}
+
+.bar_graf{
+
+}
+
+/* 左側 */
+.studying_graf{
+    display:flex;
+}
+
+.language{
+    margin-right: 20px;
+    width:300px;
+}
+
+.study_language{
+    text-align:left;
+    padding-left:20px;
+    font-size:1.5em;
+    font-weight:900;
+    padding-top:2em;
+}
+
+.doughnut_lang{
+    padding-top:2em;
+}
+
+.kinds_lang_wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:2em;
+    justify-content:space-between;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.kinds_lang_wrapper >div{
+    margin-right:10px;
+    font-size:1.4em;
+    margin-bottom: 1em;
+}
+
+.kinds_lang_wrapper >div>i{
+    margin-right: 5px;
+}
+
+.js_circle{
+    color:#2A54EF
+}
+
+.css_circle{
+    color:#1B71BD;
+}
+
+.php_circle{
+    color:#21BDDE;
+}
+
+.html_circle{
+    color:#3DCEFD;
+}
+
+.laravel_circle{
+    color:#B39EF3;
+}
+
+.sql_circle{
+    color:#6D47EC;
+}
+
+.shell_circle{
+    color:#4A18EF;
+}
+
+.wealth_circle{
+    color:#3107BF;
+}
+
+.kinds_cont_wrapper{
+    display:block;
+    flex-wrap: wrap;
+    margin-top:2em;
+    justify-content:space-between;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.kinds_cont_wrapper >div{
+    margin-right:10px;
+    font-size:1.4em;
+    margin-bottom: 1em;
+    text-align:left;
+}
+
+.kinds_cont_wrapper >div>i{
+    margin-right: 5px;
+}
+
+.dot_circle{
+    color:#2A54EF;
+}
+
+.n_yobi_circle{
+    color:#1B71BD;
+}
+
+.posse_circle{
+    color:#21BDDE;
+}
+
+/* もーだるしょり */
+.popup{
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none;
+    /* opacity: 0;
+    visibility: hidden;
+    transition: .6s;     */
+}
+
+.popup_inner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    max-width: 900px;
+    padding: 50px;
+    background-color: #fff;
+    z-index: 2;
+    display:flex;
+}
+
+.popup_left{
+    width:50%;
+}
+
+.kinds_lang_box_wrapper{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.btn_submit_modal{
+    border-radius: 50px;
+    display:flex;
+    align-items:center;
+    width:200px;
+    justify-content:center;
+    background:linear-gradient(90deg,#1B72BD,#3ACBFC);
+    color: #fff;
+}
+
+/* 下の日付 */
+
+.footer{
+    display:flex;
+    justify-content:center;
+    margin-top:3em;
+}
+
+.study_date{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.footer >i{
+    padding-top: 5px;
+}
